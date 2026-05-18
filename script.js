@@ -4,54 +4,23 @@ const sections = document.querySelectorAll(
 "body[id], section[id]"
 );
 
-const menuLinks = document.querySelectorAll(
-'.menu a, .footer a[href="#topo"]'
-);
-
 const menuItems = document.querySelectorAll(".menu li");
 
 
-// SCROLL SUAVE
+// MENU ATIVO
 
-menuLinks.forEach(link => {
-
-link.addEventListener("click", e => {
-
-const targetId = link.getAttribute("href");
-
-if(!targetId.startsWith("#")) return;
-
-e.preventDefault();
-
-const target = document.querySelector(targetId);
-
-if(target){
-
-target.scrollIntoView({
-behavior:"smooth",
-block:"start"
-});
-
-}
-
-});
-
-});
-
-// TRAÇO ATIVO
-
-window.addEventListener("scroll", () => {
+function updateMenu(){
 
 let current = "topo";
 
 sections.forEach(section => {
 
-const sectionTop = section.offsetTop - 180;
-const sectionHeight = section.offsetHeight;
+const top = section.offsetTop - 180;
+const height = section.offsetHeight;
 
 if(
-window.scrollY >= sectionTop &&
-window.scrollY < sectionTop + sectionHeight
+window.scrollY >= top &&
+window.scrollY < top + height
 ){
 current = section.id;
 }
@@ -59,8 +28,6 @@ current = section.id;
 });
 
 menuItems.forEach(item => {
-
-item.classList.remove("active");
 
 const link = item.querySelector("a");
 
@@ -70,9 +37,40 @@ link.getAttribute("href") === `#${current}`
 ){
 item.classList.add("active");
 }
+else{
+item.classList.remove("active");
+}
 
 });
 
+}
+
+
+// SCROLL COM THROTTLE
+
+let ticking = false;
+
+window.addEventListener("scroll", () => {
+
+if(!ticking){
+
+window.requestAnimationFrame(() => {
+
+updateMenu();
+
+ticking = false;
+
 });
+
+ticking = true;
+
+}
+
+});
+
+
+// ESTADO INICIAL
+
+updateMenu();
 
 });
