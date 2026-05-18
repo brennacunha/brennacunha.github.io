@@ -1,28 +1,21 @@
-window.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
 
 document.querySelectorAll('a[href^="#"]').forEach(link => {
 
-link.addEventListener('click', function(e){
+link.addEventListener("click", function(e){
 
 e.preventDefault();
 
-const alvo = document.querySelector(
-this.getAttribute('href')
+const destino = document.querySelector(
+this.getAttribute("href")
 );
 
-if(alvo){
+if(destino){
 
-const navbar = document.querySelector('.navbar');
+destino.scrollIntoView({
 
-const offset = navbar.offsetHeight;
-
-const posicao = alvo.offsetTop - offset;
-
-window.scrollTo({
-
-top:posicao,
-
-behavior:'smooth'
+behavior:"smooth",
+block:"start"
 
 });
 

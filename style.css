@@ -7,7 +7,7 @@ box-sizing:border-box;
 }
 
 html{
-scroll-behavior:auto;
+scroll-behavior:smooth;
 }
 
 a{
