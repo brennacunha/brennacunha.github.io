@@ -1,24 +1,34 @@
+window.addEventListener('DOMContentLoaded', () => {
+
 document.querySelectorAll('a[href^="#"]').forEach(link => {
 
 link.addEventListener('click', function(e){
 
 e.preventDefault();
 
-const destino = document.querySelector(
+const alvo = document.querySelector(
 this.getAttribute('href')
 );
 
-if(destino){
+if(alvo){
 
-destino.scrollIntoView({
+const navbar = document.querySelector('.navbar');
 
-behavior:'smooth',
+const offset = navbar.offsetHeight;
 
-block:'start'
+const posicao = alvo.offsetTop - offset;
+
+window.scrollTo({
+
+top:posicao,
+
+behavior:'smooth'
 
 });
 
 }
+
+});
 
 });
 
