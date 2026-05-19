@@ -1,0 +1,570 @@
+/* BASE DA PÁGINA */
+
+.experience-page{
+background:#FAF9F6;
+color:#2f2f2f;
+}
+
+.experience-page .navbar{
+position:fixed;
+}
+
+.experience-page .logo,
+.experience-page .brand-name,
+.experience-page .footer-logo{
+transition:.4s;
+}
+
+.experience-page .logo:hover,
+.experience-page .brand-name:hover,
+.experience-page .footer-logo:hover{
+color:#D7B18A;
+}
+
+/* HERO */
+
+.experience-hero{
+min-height:680px;
+padding:135px 70px 70px;
+background:
+radial-gradient(circle at 78% 18%, rgba(215,177,138,.13), transparent 30%),
+linear-gradient(90deg,#001E18 0%,#03261E 50%,#001E18 100%);
+display:flex;
+align-items:center;
+}
+
+.experience-hero-content{
+width:100%;
+max-width:1500px;
+margin:0 auto;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:70px;
+align-items:center;
+}
+
+.experience-hero-text{
+max-width:680px;
+}
+
+.experience-hero h1{
+font-family:Georgia, serif;
+font-size:64px;
+font-weight:400;
+line-height:1.05;
+letter-spacing:0;
+color:#D7B18A;
+margin:22px 0 26px;
+}
+
+.experience-hero p{
+max-width:620px;
+font-size:18px;
+line-height:1.8;
+color:#F4E8DD;
+margin-bottom:28px;
+}
+
+.back-button{
+display:inline-flex;
+align-items:center;
+gap:12px;
+min-height:48px;
+padding:0 2px;
+color:#F4E8DD;
+font-size:13px;
+font-weight:700;
+letter-spacing:2px;
+transition:.4s;
+}
+
+.back-button i{
+color:#D7B18A;
+}
+
+.back-button:hover{
+color:#D7B18A;
+transform:translateX(-6px);
+}
+
+.experience-hero-image{
+min-height:420px;
+border-radius:18px;
+background:
+linear-gradient(90deg, rgba(0,30,24,.5), rgba(0,30,24,.08)),
+url("../Imagens/Capa LinkedIn.png") center right / cover no-repeat;
+box-shadow:0 30px 80px rgba(0,0,0,.28);
+border:1px solid rgba(215,177,138,.18);
+}
+
+/* TIMELINE VERTICAL */
+
+.journey-section{
+background:linear-gradient(180deg,#FAF9F6 0%,#F3E8DE 100%);
+padding:90px 80px 55px;
+}
+
+.journey-heading{
+max-width:1200px;
+margin:0 auto 50px;
+}
+
+.journey-heading h2{
+font-family:Georgia, serif;
+font-size:42px;
+font-weight:400;
+line-height:1.1;
+color:#202020;
+margin-top:12px;
+}
+
+.timeline{
+max-width:1200px;
+margin:0 auto;
+position:relative;
+}
+
+.timeline::before{
+content:"";
+position:absolute;
+top:28px;
+bottom:28px;
+left:232px;
+width:1px;
+background:rgba(0,30,24,.28);
+}
+
+.timeline-item{
+display:grid;
+grid-template-columns:190px 44px 1fr;
+gap:18px;
+position:relative;
+margin-bottom:26px;
+}
+
+.timeline-date{
+padding-top:28px;
+color:#202020;
+}
+
+.timeline-date strong{
+display:block;
+font-size:17px;
+line-height:1.35;
+color:#C89C72;
+margin-bottom:14px;
+}
+
+.timeline-date span{
+display:flex;
+align-items:center;
+gap:10px;
+font-size:14px;
+line-height:1.5;
+color:#303030;
+}
+
+.timeline-date i{
+color:#001E18;
+}
+
+.timeline-marker{
+width:18px;
+height:18px;
+border-radius:50%;
+background:#001E18;
+border:3px solid #F3E8DE;
+box-shadow:0 0 0 1px rgba(0,30,24,.18);
+align-self:start;
+justify-self:center;
+margin-top:33px;
+z-index:2;
+}
+
+.timeline-card{
+display:grid;
+grid-template-columns:minmax(0,1fr) 300px;
+gap:36px;
+padding:32px 34px;
+background:rgba(255,255,255,.62);
+border:1px solid rgba(0,0,0,.11);
+border-radius:8px;
+box-shadow:0 24px 70px rgba(0,30,24,.05);
+transition:.45s;
+}
+
+.timeline-card:hover{
+transform:translateY(-6px);
+box-shadow:0 24px 70px rgba(0,30,24,.12);
+}
+
+.timeline-main h3{
+font-family:Georgia, serif;
+font-size:30px;
+font-weight:400;
+line-height:1.15;
+color:#111;
+margin-bottom:10px;
+}
+
+.company{
+font-size:15px;
+font-weight:700;
+color:#222;
+margin-bottom:18px;
+}
+
+.company span{
+color:#C89C72;
+font-weight:600;
+}
+
+.timeline-main p,
+.timeline-block p,
+.timeline-skills li{
+font-size:15px;
+line-height:1.8;
+color:#343434;
+}
+
+.timeline-block{
+margin-top:18px;
+}
+
+.timeline-block h4,
+.timeline-skills h4{
+font-size:12px;
+letter-spacing:2px;
+color:#001E18;
+margin-bottom:8px;
+text-transform:uppercase;
+}
+
+.timeline-skills{
+border-left:1px solid rgba(0,0,0,.12);
+padding-left:32px;
+align-self:center;
+}
+
+.timeline-skills ul{
+display:grid;
+gap:9px;
+padding-left:18px;
+}
+
+.reveal-item{
+opacity:0;
+transform:translateY(24px);
+}
+
+.reveal-item.is-visible{
+opacity:1;
+transform:translateY(0);
+transition:opacity .6s ease, transform .6s ease;
+}
+
+/* BLOCO DE DESTAQUES */
+
+.highlights-section{
+background:#F3E8DE;
+padding:0 80px 70px;
+}
+
+.highlights-panel{
+max-width:1200px;
+margin:0 auto;
+display:grid;
+grid-template-columns:1.1fr 1.5fr;
+gap:36px;
+align-items:center;
+padding:28px 34px;
+background:linear-gradient(135deg,#001E18,#03261E);
+border-radius:12px;
+box-shadow:0 26px 60px rgba(0,30,24,.18);
+}
+
+.highlight-intro{
+display:grid;
+grid-template-columns:78px 1fr;
+gap:22px;
+align-items:center;
+}
+
+.highlight-intro > i{
+width:78px;
+height:78px;
+border:1px solid rgba(215,177,138,.62);
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:34px;
+color:#D7B18A;
+}
+
+.highlight-intro p{
+font-size:15px;
+line-height:1.7;
+color:#F4E8DD;
+margin-top:10px;
+}
+
+.highlight-metrics{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+}
+
+.metric-card{
+min-height:120px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+gap:8px;
+text-align:center;
+border-left:1px solid rgba(215,177,138,.22);
+color:#F4E8DD;
+}
+
+.metric-card i{
+font-size:28px;
+color:#D7B18A;
+}
+
+.metric-card strong{
+font-size:18px;
+font-weight:500;
+color:#D7B18A;
+}
+
+.metric-card span{
+font-size:13px;
+line-height:1.4;
+}
+
+/* CTA FINAL */
+
+.experience-page .contact-section{
+margin-top:0;
+}
+
+.experience-page .contact-content{
+padding-top:0;
+}
+
+/* RESPONSIVO */
+
+@media (max-width:1200px){
+.experience-page .navbar{
+padding:22px 34px;
+grid-template-columns:1fr;
+gap:22px;
+}
+
+.experience-page .brand,
+.experience-page .nav-button{
+justify-self:center;
+}
+
+.experience-page .menu{
+gap:28px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.experience-hero{
+padding:210px 44px 70px;
+}
+
+.experience-hero-content{
+grid-template-columns:1fr;
+gap:10px;
+}
+
+.experience-hero h1{
+font-size:52px;
+}
+
+.experience-hero-image{
+display:none;
+}
+
+.journey-section,
+.highlights-section{
+padding-left:44px;
+padding-right:44px;
+}
+
+.timeline::before{
+left:190px;
+}
+
+.timeline-item{
+grid-template-columns:150px 44px 1fr;
+}
+
+.timeline-card{
+grid-template-columns:1fr;
+gap:24px;
+}
+
+.timeline-skills{
+border-left:0;
+border-top:1px solid rgba(0,0,0,.12);
+padding-left:0;
+padding-top:22px;
+}
+
+.highlights-panel{
+grid-template-columns:1fr;
+}
+
+.highlight-metrics{
+grid-template-columns:repeat(2,1fr);
+}
+
+.metric-card{
+border-left:0;
+border-top:1px solid rgba(215,177,138,.22);
+}
+
+.experience-page .contact-content{
+grid-template-columns:1fr;
+padding:60px 44px 35px;
+text-align:center;
+}
+
+.experience-page .contact-left{
+position:static;
+justify-content:center;
+}
+
+.experience-page .contact-left img{
+width:240px;
+}
+
+.experience-page .contact-center{
+grid-column:auto;
+margin:auto;
+}
+
+.experience-page .contact-button{
+margin:0 auto;
+}
+
+.experience-page .contact-right{
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.experience-page .footer{
+grid-template-columns:1fr;
+gap:22px;
+text-align:center;
+padding:28px 44px;
+}
+
+.experience-page .footer-brand,
+.experience-page .footer-icons{
+justify-content:center;
+}
+}
+
+@media (max-width:760px){
+.experience-page .navbar{
+position:relative;
+padding:20px;
+}
+
+.experience-page .menu{
+gap:16px;
+}
+
+.experience-page .menu li{
+font-size:14px;
+}
+
+.experience-hero{
+min-height:auto;
+padding:70px 24px;
+}
+
+.experience-hero h1{
+font-size:38px;
+}
+
+.experience-hero p{
+font-size:16px;
+}
+
+.journey-section{
+padding:58px 24px 38px;
+}
+
+.journey-heading h2{
+font-size:34px;
+}
+
+.timeline::before{
+left:8px;
+}
+
+.timeline-item{
+grid-template-columns:22px 1fr;
+gap:16px;
+margin-bottom:30px;
+}
+
+.timeline-date{
+grid-column:2;
+grid-row:1;
+padding-top:0;
+}
+
+.timeline-marker{
+grid-column:1;
+grid-row:1 / span 2;
+margin-top:6px;
+width:16px;
+height:16px;
+}
+
+.timeline-card{
+grid-column:2;
+padding:26px 22px;
+}
+
+.timeline-main h3{
+font-size:26px;
+}
+
+.highlights-section{
+padding:0 24px 48px;
+}
+
+.highlights-panel{
+padding:26px 22px;
+}
+
+.highlight-intro{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.highlight-intro > i{
+margin:0 auto;
+}
+
+.highlight-metrics{
+grid-template-columns:1fr;
+}
+
+.experience-page .contact-content{
+padding:50px 24px 30px;
+}
+
+.experience-page .contact-card{
+width:100%;
+max-width:250px;
+}
+}
