@@ -478,6 +478,20 @@ margin-top:15px;
 
 }
 
+.experience-intro{
+
+max-width:700px;
+
+font-size:18px;
+
+line-height:1.7;
+
+color:#4a4a4a;
+
+margin-top:22px;
+
+}
+
 .experience-button{
 
 width:300px;
@@ -528,11 +542,11 @@ content:"";
 
 position:absolute;
 
-top:18px;
+top:42px;
 
 left:0;
 
-right:0;
+right:360px;
 
 height:1px;
 
@@ -544,11 +558,13 @@ background:rgba(60,60,60,.18);
 
 position:relative;
 
-padding-top:60px;
+padding-top:110px;
 
-padding-left:10px;
+padding-left:0;
 
 max-width:260px;
+
+text-align:center;
 
 transition:.5s;
 
@@ -583,6 +599,46 @@ z-index:2;
 
 }
 
+.exp-icon{
+
+width:82px;
+
+height:82px;
+
+border-radius:50%;
+
+background:#06251F;
+
+border:1px solid rgba(200,156,114,.45);
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+position:absolute;
+
+top:0;
+
+left:50%;
+
+transform:translateX(-50%);
+
+z-index:2;
+
+box-shadow:0 18px 40px rgba(0,30,24,.16);
+
+}
+
+.exp-icon i{
+
+font-size:34px;
+
+color:#C89C72;
+
+}
+
 .exp-item span{
 
 font-size:14px;
@@ -595,13 +651,17 @@ margin-bottom:15px;
 
 color:#3c3c3c;
 
+text-align:center;
+
 }
 
 .exp-item h3{
 
-font-size:16px;
+font-family:'Cormorant Garamond', serif;
 
-margin-bottom:15px;
+font-size:23px;
+
+margin-bottom:10px;
 
 color:#3c3c3c;
 
@@ -619,6 +679,22 @@ color:#6d6d6d;
 
 }
 
+.exp-item h4::after{
+
+content:"";
+
+display:block;
+
+width:58px;
+
+height:1px;
+
+background:#C89C72;
+
+margin:16px auto 0;
+
+}
+
 .exp-item p{
 
 font-size:16px;
@@ -626,6 +702,46 @@ font-size:16px;
 line-height:1.5;
 
 color:#4a4a4a;
+
+}
+
+.exp-badge{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:10px;
+
+min-height:42px;
+
+padding:0 18px;
+
+margin-top:22px;
+
+border-radius:10px;
+
+background:rgba(255,255,255,.48);
+
+border:1px solid rgba(0,0,0,.06);
+
+color:#16352E;
+
+font-size:12px;
+
+font-weight:800;
+
+letter-spacing:2px;
+
+}
+
+.exp-badge i{
+
+color:#16352E;
+
+font-size:15px;
 
 }
 
@@ -639,7 +755,7 @@ background:linear-gradient(
 
 padding:50px;
 
-border-radius:20px;
+border-radius:18px;
 
 color:#D3D3D3;
 
@@ -680,6 +796,120 @@ color:#C89C72;
 .exp-highlight p{
 
 line-height:1.8;
+
+}
+
+.impact-list{
+
+list-style:none;
+
+display:grid;
+
+gap:18px;
+
+margin-top:34px;
+
+text-align:left;
+
+}
+
+.impact-list li{
+
+display:grid;
+
+grid-template-columns:34px 1fr;
+
+gap:16px;
+
+align-items:center;
+
+font-size:15px;
+
+line-height:1.5;
+
+}
+
+.impact-list i{
+
+font-size:26px;
+
+margin:0;
+
+}
+
+.experience-metrics{
+
+margin-top:26px;
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+border:1px solid rgba(60,60,60,.14);
+
+border-radius:14px;
+
+background:rgba(255,255,255,.36);
+
+overflow:hidden;
+
+}
+
+.experience-metric{
+
+min-height:112px;
+
+display:grid;
+
+grid-template-columns:58px 1fr;
+
+gap:18px;
+
+align-items:center;
+
+padding:24px 30px;
+
+border-left:1px solid rgba(60,60,60,.14);
+
+}
+
+.experience-metric:first-child{
+
+border-left:0;
+
+}
+
+.experience-metric i{
+
+font-size:38px;
+
+color:#16352E;
+
+}
+
+.experience-metric strong{
+
+display:block;
+
+font-family:'Cormorant Garamond', serif;
+
+font-size:26px;
+
+line-height:1.1;
+
+color:#16352E;
+
+margin-bottom:6px;
+
+}
+
+.experience-metric span{
+
+font-size:14px;
+
+line-height:1.55;
+
+color:#3c3c3c;
 
 }
 
@@ -1464,6 +1694,18 @@ max-width:none;
 grid-column:span 2;
 }
 
+.experience-metrics{
+grid-template-columns:repeat(2,1fr);
+}
+
+.experience-metric:nth-child(odd){
+border-left:0;
+}
+
+.experience-metric:nth-child(n+3){
+border-top:1px solid rgba(60,60,60,.14);
+}
+
 .projects-grid{
 grid-template-columns:repeat(2,1fr);
 }
@@ -1624,6 +1866,41 @@ flex-direction:column;
 .exp-highlight{
 grid-column:auto;
 padding:36px 24px;
+}
+
+.experience-intro{
+font-size:16px;
+}
+
+.exp-item{
+padding-top:96px;
+}
+
+.exp-icon{
+width:72px;
+height:72px;
+}
+
+.exp-icon i{
+font-size:28px;
+}
+
+.exp-badge{
+width:100%;
+letter-spacing:1px;
+}
+
+.experience-metrics{
+grid-template-columns:1fr;
+}
+
+.experience-metric,
+.experience-metric:nth-child(odd){
+border-left:0;
+}
+
+.experience-metric:nth-child(n+2){
+border-top:1px solid rgba(60,60,60,.14);
 }
 
 .project-content h3{
