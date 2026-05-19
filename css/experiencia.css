@@ -94,7 +94,7 @@ min-height:420px;
 border-radius:18px;
 background:
 linear-gradient(90deg, rgba(0,30,24,.5), rgba(0,30,24,.08)),
-url("../Imagens/Capa LinkedIn.png") center right / cover no-repeat;
+url("../assets/images/capa-linkedin.png") center right / cover no-repeat;
 box-shadow:0 30px 80px rgba(0,0,0,.28);
 border:1px solid rgba(215,177,138,.18);
 }
