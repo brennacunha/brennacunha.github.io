@@ -15,6 +15,7 @@ color:inherit;
 }
 
 html{
+/* ===== SCROLL SUAVE ===== */
 scroll-behavior:smooth;
 }
 
@@ -1640,6 +1641,64 @@ max-width:250px;
 
 .footer{
 padding:26px 24px;
+}
+
+}
+
+/* ===== REVEAL ===== */
+
+.home-reveal{
+opacity:0;
+transform:translateY(14px);
+transition:opacity .5s ease, transform .5s ease;
+will-change:opacity, transform;
+}
+
+.home-reveal.is-visible{
+opacity:1;
+transform:translateY(0);
+}
+
+/* ===== HOVER ===== */
+
+.home-reveal.is-visible.skill:hover,
+.home-reveal.is-visible.exp-item:hover,
+.home-reveal.is-visible.exp-highlight:hover,
+.home-reveal.is-visible.project-card:hover{
+transform:translateY(-8px);
+}
+
+/* ===== MICROINTERAÇÕES ===== */
+
+.hero-links a,
+.project-content h3,
+.exp-item h3,
+.skill h3{
+transition:color .3s ease;
+}
+
+.hero-links a:hover{
+color:#D7B18A;
+}
+
+@media (prefers-reduced-motion:reduce){
+
+html{
+scroll-behavior:auto;
+}
+
+*,
+*::before,
+*::after{
+animation-duration:.01ms !important;
+animation-iteration-count:1 !important;
+scroll-behavior:auto !important;
+transition-duration:.01ms !important;
+}
+
+.home-reveal{
+opacity:1;
+transform:none;
 }
 
 }
