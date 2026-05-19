@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+// RESPONSIVIDADE
+// CONTROLE MENU
 const filterButtons = document.querySelectorAll(".filter-button");
 const projectCards = document.querySelectorAll(".portfolio-card");
 const revealCards = document.querySelectorAll(".reveal-card");

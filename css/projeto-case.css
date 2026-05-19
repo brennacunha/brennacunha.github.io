@@ -1,24 +1,10 @@
 /* BASE DA PÁGINA */
 
+/* ===== RESPONSIVIDADE DESKTOP ===== */
+
 .case-page{
 background:#FAF9F6;
 color:#202020;
-}
-
-.case-page .navbar{
-position:fixed;
-}
-
-.case-page .logo,
-.case-page .brand-name,
-.case-page .footer-logo{
-transition:.4s;
-}
-
-.case-page .logo:hover,
-.case-page .brand-name:hover,
-.case-page .footer-logo:hover{
-color:#D7B18A;
 }
 
 .section-label{
@@ -788,16 +774,6 @@ color:#F4E8DD;
 color:#D7B18A;
 }
 
-/* CTA FINAL */
-
-.case-page .contact-section{
-margin-top:0;
-}
-
-.case-page .contact-content{
-padding-top:0;
-}
-
 /* ANIMAÇÕES */
 
 .reveal-item{
@@ -811,26 +787,9 @@ transform:translateY(0);
 transition:opacity .6s ease, transform .6s ease;
 }
 
-/* RESPONSIVO */
+/* ===== RESPONSIVIDADE TABLET ===== */
 
-@media (max-width:1200px){
-.case-page .navbar{
-padding:22px 34px;
-grid-template-columns:1fr;
-gap:22px;
-}
-
-.case-page .brand,
-.case-page .nav-button{
-justify-self:center;
-}
-
-.case-page .menu{
-gap:28px;
-justify-content:center;
-flex-wrap:wrap;
-}
-
+@media (max-width:1199px){
 .case-hero{
 padding:210px 44px 70px;
 }
@@ -867,62 +826,11 @@ border-top:1px solid rgba(0,0,0,.12);
 border-bottom:1px solid rgba(0,0,0,.12);
 }
 
-.case-page .contact-content{
-grid-template-columns:1fr;
-padding:60px 44px 35px;
-text-align:center;
 }
 
-.case-page .contact-left{
-position:static;
-justify-content:center;
-}
+/* ===== RESPONSIVIDADE MOBILE ===== */
 
-.case-page .contact-left img{
-width:240px;
-}
-
-.case-page .contact-center{
-grid-column:auto;
-margin:auto;
-}
-
-.case-page .contact-button{
-margin:0 auto;
-}
-
-.case-page .contact-right{
-justify-content:center;
-flex-wrap:wrap;
-}
-
-.case-page .footer{
-grid-template-columns:1fr;
-gap:22px;
-text-align:center;
-padding:28px 44px;
-}
-
-.case-page .footer-brand,
-.case-page .footer-icons{
-justify-content:center;
-}
-}
-
-@media (max-width:760px){
-.case-page .navbar{
-position:relative;
-padding:20px;
-}
-
-.case-page .menu{
-gap:16px;
-}
-
-.case-page .menu li{
-font-size:14px;
-}
-
+@media (max-width:767px){
 .case-hero{
 min-height:auto;
 padding:70px 24px;
@@ -994,12 +902,4 @@ align-items:flex-start;
 text-align:left;
 }
 
-.case-page .contact-content{
-padding:50px 24px 30px;
-}
-
-.case-page .contact-card{
-width:100%;
-max-width:250px;
-}
 }

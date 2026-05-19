@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
+// RESPONSIVIDADE
+// BREAKPOINT PADRONIZADO
+// AJUSTE MOBILE
 const revealItems = document.querySelectorAll(".reveal-item");
 const galleries = document.querySelectorAll("[data-gallery]");
 
@@ -11,11 +14,11 @@ item.classList.add("is-visible");
 }
 
 function getVisibleGalleryCount(totalItems){
-if(window.innerWidth <= 760){
+if(window.innerWidth <= 767){
 return 1;
 }
 
-if(window.innerWidth <= 1200){
+if(window.innerWidth <= 1199){
 return Math.min(2, totalItems);
 }
 

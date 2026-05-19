@@ -1,24 +1,10 @@
 /* BASE DA PÁGINA */
 
+/* ===== RESPONSIVIDADE DESKTOP ===== */
+
 .projects-page{
 background:#FAF9F6;
 color:#2f2f2f;
-}
-
-.projects-page .navbar{
-position:fixed;
-}
-
-.projects-page .logo,
-.projects-page .brand-name,
-.projects-page .footer-logo{
-transition:.4s;
-}
-
-.projects-page .logo:hover,
-.projects-page .brand-name:hover,
-.projects-page .footer-logo:hover{
-color:#D7B18A;
 }
 
 /* HERO */
@@ -92,7 +78,7 @@ min-height:420px;
 border-radius:18px;
 background:
 linear-gradient(90deg, rgba(0,30,24,.5), rgba(0,30,24,.08)),
-url("../Imagens/Capa LinkedIn.png") center right / cover no-repeat;
+url("../assets/images/capa-linkedin.png") center right / cover no-repeat;
 box-shadow:0 30px 80px rgba(0,0,0,.28);
 border:1px solid rgba(215,177,138,.18);
 }
@@ -489,36 +475,9 @@ line-height:1.7;
 color:#F4E8DD;
 }
 
-/* CTA FINAL */
+/* ===== RESPONSIVIDADE TABLET ===== */
 
-.projects-page .contact-section{
-margin-top:0;
-}
-
-.projects-page .contact-content{
-padding-top:0;
-}
-
-/* RESPONSIVO */
-
-@media (max-width:1200px){
-.projects-page .navbar{
-padding:22px 34px;
-grid-template-columns:1fr;
-gap:22px;
-}
-
-.projects-page .brand,
-.projects-page .nav-button{
-justify-self:center;
-}
-
-.projects-page .menu{
-gap:28px;
-justify-content:center;
-flex-wrap:wrap;
-}
-
+@media (max-width:1199px){
 .projects-hero{
 padding:210px 44px 70px;
 }
@@ -555,62 +514,11 @@ border-left:0;
 border-top:1px solid rgba(215,177,138,.22);
 }
 
-.projects-page .contact-content{
-grid-template-columns:1fr;
-padding:60px 44px 35px;
-text-align:center;
 }
 
-.projects-page .contact-left{
-position:static;
-justify-content:center;
-}
+/* ===== RESPONSIVIDADE MOBILE ===== */
 
-.projects-page .contact-left img{
-width:240px;
-}
-
-.projects-page .contact-center{
-grid-column:auto;
-margin:auto;
-}
-
-.projects-page .contact-button{
-margin:0 auto;
-}
-
-.projects-page .contact-right{
-justify-content:center;
-flex-wrap:wrap;
-}
-
-.projects-page .footer{
-grid-template-columns:1fr;
-gap:22px;
-text-align:center;
-padding:28px 44px;
-}
-
-.projects-page .footer-brand,
-.projects-page .footer-icons{
-justify-content:center;
-}
-}
-
-@media (max-width:760px){
-.projects-page .navbar{
-position:relative;
-padding:20px;
-}
-
-.projects-page .menu{
-gap:16px;
-}
-
-.projects-page .menu li{
-font-size:14px;
-}
-
+@media (max-width:767px){
 .projects-hero{
 min-height:auto;
 padding:70px 24px;
@@ -666,12 +574,4 @@ gap:12px;
 margin:0 auto;
 }
 
-.projects-page .contact-content{
-padding:50px 24px 30px;
-}
-
-.projects-page .contact-card{
-width:100%;
-max-width:250px;
-}
 }
