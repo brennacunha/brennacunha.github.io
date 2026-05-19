@@ -1,3 +1,5 @@
+/* ===== RESPONSIVIDADE DESKTOP ===== */
+
 *{
 margin:0;
 padding:0;
@@ -1381,5 +1383,263 @@ transition:.4s;
 .footer-icons i:hover{
 
 transform:translateY(-8px);
+
+}
+
+/* ===== RESPONSIVIDADE TABLET ===== */
+
+@media (max-width:1199px){
+
+/* ===== CORREÇÃO DE OVERFLOW ===== */
+
+.navbar{
+padding:22px 34px;
+grid-template-columns:1fr;
+gap:22px;
+}
+
+.brand,
+.nav-button{
+justify-self:center;
+}
+
+.menu{
+gap:28px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.hero{
+grid-template-columns:1fr;
+padding:210px 44px 70px;
+gap:42px;
+}
+
+.hero-text{
+max-width:760px;
+}
+
+.hero h1{
+font-size:64px;
+}
+
+.hero-image img{
+width:430px;
+}
+
+.about{
+grid-template-columns:1fr;
+gap:56px;
+padding:90px 44px;
+}
+
+.about-right{
+grid-template-columns:repeat(2,1fr);
+}
+
+.experience,
+.projects{
+padding:90px 44px;
+}
+
+.experience-header,
+.projects-header{
+gap:28px;
+}
+
+.experience-line{
+grid-template-columns:repeat(2,1fr);
+}
+
+.experience-line::before{
+display:none;
+}
+
+.exp-item{
+max-width:none;
+}
+
+.exp-highlight{
+grid-column:span 2;
+}
+
+.projects-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.contact-content{
+grid-template-columns:1fr;
+padding:60px 44px 35px;
+text-align:center;
+}
+
+.contact-left{
+position:static;
+justify-content:center;
+}
+
+.contact-left img{
+width:240px;
+}
+
+.contact-center{
+grid-column:auto;
+margin:auto;
+}
+
+.contact-button{
+margin:0 auto;
+}
+
+.contact-right{
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.footer{
+grid-template-columns:1fr;
+gap:22px;
+text-align:center;
+padding:28px 44px;
+}
+
+.footer-brand,
+.footer-icons{
+justify-content:center;
+}
+
+}
+
+/* ===== RESPONSIVIDADE MOBILE ===== */
+
+@media (max-width:767px){
+
+/* ===== AJUSTES ESPECÍFICOS HOME ===== */
+
+.navbar{
+position:relative;
+padding:20px;
+}
+
+.logo{
+width:58px;
+height:58px;
+font-size:23px;
+}
+
+.brand{
+gap:14px;
+}
+
+.brand-name{
+font-size:14px;
+letter-spacing:2px;
+}
+
+.menu{
+gap:16px;
+}
+
+.menu li{
+font-size:14px;
+}
+
+.nav-button{
+padding:13px 22px;
+}
+
+section{
+scroll-margin-top:24px;
+}
+
+.hero{
+min-height:auto;
+padding:70px 24px;
+gap:34px;
+}
+
+.hero h1{
+font-size:44px;
+}
+
+.hero h2{
+font-size:16px;
+letter-spacing:1px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.hero button,
+.about-button,
+.experience-button,
+.projects-button{
+width:100%;
+max-width:300px;
+}
+
+.hero-links{
+flex-wrap:wrap;
+gap:18px;
+}
+
+.hero-image img{
+width:100%;
+border-radius:22px;
+}
+
+.about,
+.experience,
+.projects{
+padding:56px 24px;
+}
+
+.about-left h2,
+.experience-header h2,
+.projects-header h2{
+font-size:34px;
+}
+
+.about-left p{
+font-size:17px;
+}
+
+.about-right,
+.experience-line,
+.projects-grid{
+grid-template-columns:1fr;
+}
+
+.skill::before{
+display:none;
+}
+
+.experience-header,
+.projects-header{
+flex-direction:column;
+}
+
+.exp-highlight{
+grid-column:auto;
+padding:36px 24px;
+}
+
+.project-content h3{
+font-size:27px;
+}
+
+.contact-content{
+padding:50px 24px 30px;
+}
+
+.contact-card{
+width:100%;
+max-width:250px;
+}
+
+.footer{
+padding:26px 24px;
+}
 
 }

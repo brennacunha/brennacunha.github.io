@@ -1,5 +1,7 @@
 /* BASE DA PÁGINA */
 
+/* ===== RESPONSIVIDADE DESKTOP ===== */
+
 .projects-page{
 background:#FAF9F6;
 color:#2f2f2f;
@@ -499,9 +501,9 @@ margin-top:0;
 padding-top:0;
 }
 
-/* RESPONSIVO */
+/* ===== RESPONSIVIDADE TABLET ===== */
 
-@media (max-width:1200px){
+@media (max-width:1199px){
 .projects-page .navbar{
 padding:22px 34px;
 grid-template-columns:1fr;
@@ -597,7 +599,9 @@ justify-content:center;
 }
 }
 
-@media (max-width:760px){
+/* ===== RESPONSIVIDADE MOBILE ===== */
+
+@media (max-width:767px){
 .projects-page .navbar{
 position:relative;
 padding:20px;

@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+// RESPONSIVIDADE
+// CONTROLE MENU
+
 const sections = document.querySelectorAll(
 "body[id], section[id]"
 );

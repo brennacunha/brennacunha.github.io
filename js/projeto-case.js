@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+// RESPONSIVIDADE
+// AJUSTE MOBILE
 const revealItems = document.querySelectorAll(".reveal-item");
 const galleries = document.querySelectorAll("[data-gallery]");
 
