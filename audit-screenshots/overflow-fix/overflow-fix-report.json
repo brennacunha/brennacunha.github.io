@@ -1,0 +1,839 @@
+[
+  {
+    "viewport": "desktop",
+    "page": "home",
+    "screenshot": "audit-screenshots\\overflow-fix\\desktop-home.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "contactCards": [
+      {
+        "left": 789,
+        "right": 961,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 986,
+        "right": 1158,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 1183,
+        "right": 1355,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "desktop",
+    "page": "experiencia",
+    "screenshot": "audit-screenshots\\overflow-fix\\desktop-experiencia.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "contactCards": [
+      {
+        "left": 789,
+        "right": 961,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 986,
+        "right": 1158,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 1183,
+        "right": 1355,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "desktop",
+    "page": "projetos",
+    "screenshot": "audit-screenshots\\overflow-fix\\desktop-projetos.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "contactCards": [
+      {
+        "left": 789,
+        "right": 961,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 986,
+        "right": 1158,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 1183,
+        "right": 1355,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "desktop",
+    "page": "projeto-dashboard",
+    "screenshot": "audit-screenshots\\overflow-fix\\desktop-projeto-dashboard.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "contactCards": [
+      {
+        "left": 789,
+        "right": 961,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 986,
+        "right": 1158,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 1183,
+        "right": 1355,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "desktop",
+    "page": "projeto-rentabilidade",
+    "screenshot": "audit-screenshots\\overflow-fix\\desktop-projeto-rentabilidade.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "contactCards": [
+      {
+        "left": 789,
+        "right": 961,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 986,
+        "right": 1158,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 1183,
+        "right": 1355,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "desktop",
+    "page": "projeto-processos",
+    "screenshot": "audit-screenshots\\overflow-fix\\desktop-projeto-processos.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "contactCards": [
+      {
+        "left": 789,
+        "right": 961,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 986,
+        "right": 1158,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 1183,
+        "right": 1355,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "desktop",
+    "page": "projeto-fluxo",
+    "screenshot": "audit-screenshots\\overflow-fix\\desktop-projeto-fluxo.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "contactCards": [
+      {
+        "left": 789,
+        "right": 961,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 986,
+        "right": 1158,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 1183,
+        "right": 1355,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "desktop",
+    "page": "projeto-kpis",
+    "screenshot": "audit-screenshots\\overflow-fix\\desktop-projeto-kpis.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "contactCards": [
+      {
+        "left": 789,
+        "right": 961,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 986,
+        "right": 1158,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 1183,
+        "right": 1355,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "desktop",
+    "page": "projeto-relatorios",
+    "screenshot": "audit-screenshots\\overflow-fix\\desktop-projeto-relatorios.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "contactCards": [
+      {
+        "left": 789,
+        "right": 961,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 986,
+        "right": 1158,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 1183,
+        "right": 1355,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "tablet",
+    "page": "home",
+    "screenshot": "audit-screenshots\\overflow-fix\\tablet-home.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 820,
+    "clientWidth": 820,
+    "contactCards": [
+      {
+        "left": 127,
+        "right": 299,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 324,
+        "right": 496,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 521,
+        "right": 693,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "tablet",
+    "page": "experiencia",
+    "screenshot": "audit-screenshots\\overflow-fix\\tablet-experiencia.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 820,
+    "clientWidth": 820,
+    "contactCards": [
+      {
+        "left": 127,
+        "right": 299,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 324,
+        "right": 496,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 521,
+        "right": 693,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "tablet",
+    "page": "projetos",
+    "screenshot": "audit-screenshots\\overflow-fix\\tablet-projetos.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 820,
+    "clientWidth": 820,
+    "contactCards": [
+      {
+        "left": 127,
+        "right": 299,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 324,
+        "right": 496,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 521,
+        "right": 693,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "tablet",
+    "page": "projeto-dashboard",
+    "screenshot": "audit-screenshots\\overflow-fix\\tablet-projeto-dashboard.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 820,
+    "clientWidth": 820,
+    "contactCards": [
+      {
+        "left": 127,
+        "right": 299,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 324,
+        "right": 496,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 521,
+        "right": 693,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "tablet",
+    "page": "projeto-rentabilidade",
+    "screenshot": "audit-screenshots\\overflow-fix\\tablet-projeto-rentabilidade.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 820,
+    "clientWidth": 820,
+    "contactCards": [
+      {
+        "left": 127,
+        "right": 299,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 324,
+        "right": 496,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 521,
+        "right": 693,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "tablet",
+    "page": "projeto-processos",
+    "screenshot": "audit-screenshots\\overflow-fix\\tablet-projeto-processos.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 820,
+    "clientWidth": 820,
+    "contactCards": [
+      {
+        "left": 127,
+        "right": 299,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 324,
+        "right": 496,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 521,
+        "right": 693,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "tablet",
+    "page": "projeto-fluxo",
+    "screenshot": "audit-screenshots\\overflow-fix\\tablet-projeto-fluxo.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 820,
+    "clientWidth": 820,
+    "contactCards": [
+      {
+        "left": 127,
+        "right": 299,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 324,
+        "right": 496,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 521,
+        "right": 693,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "tablet",
+    "page": "projeto-kpis",
+    "screenshot": "audit-screenshots\\overflow-fix\\tablet-projeto-kpis.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 820,
+    "clientWidth": 820,
+    "contactCards": [
+      {
+        "left": 127,
+        "right": 299,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 324,
+        "right": 496,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 521,
+        "right": 693,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "tablet",
+    "page": "projeto-relatorios",
+    "screenshot": "audit-screenshots\\overflow-fix\\tablet-projeto-relatorios.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 820,
+    "clientWidth": 820,
+    "contactCards": [
+      {
+        "left": 127,
+        "right": 299,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 324,
+        "right": 496,
+        "width": 172,
+        "visible": true
+      },
+      {
+        "left": 521,
+        "right": 693,
+        "width": 172,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "mobile",
+    "page": "home",
+    "screenshot": "audit-screenshots\\overflow-fix\\mobile-home.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "contactCards": [
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "mobile",
+    "page": "experiencia",
+    "screenshot": "audit-screenshots\\overflow-fix\\mobile-experiencia.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "contactCards": [
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "mobile",
+    "page": "projetos",
+    "screenshot": "audit-screenshots\\overflow-fix\\mobile-projetos.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "contactCards": [
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "mobile",
+    "page": "projeto-dashboard",
+    "screenshot": "audit-screenshots\\overflow-fix\\mobile-projeto-dashboard.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "contactCards": [
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "mobile",
+    "page": "projeto-rentabilidade",
+    "screenshot": "audit-screenshots\\overflow-fix\\mobile-projeto-rentabilidade.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "contactCards": [
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "mobile",
+    "page": "projeto-processos",
+    "screenshot": "audit-screenshots\\overflow-fix\\mobile-projeto-processos.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "contactCards": [
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "mobile",
+    "page": "projeto-fluxo",
+    "screenshot": "audit-screenshots\\overflow-fix\\mobile-projeto-fluxo.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "contactCards": [
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "mobile",
+    "page": "projeto-kpis",
+    "screenshot": "audit-screenshots\\overflow-fix\\mobile-projeto-kpis.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "contactCards": [
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  },
+  {
+    "viewport": "mobile",
+    "page": "projeto-relatorios",
+    "screenshot": "audit-screenshots\\overflow-fix\\mobile-projeto-relatorios.png",
+    "overflowAmount": 0,
+    "horizontalOverflow": false,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "contactCards": [
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      },
+      {
+        "left": 70,
+        "right": 320,
+        "width": 250,
+        "visible": true
+      }
+    ],
+    "allContactCardsVisible": true,
+    "footerVisible": true
+  }
+]

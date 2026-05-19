@@ -7,22 +7,6 @@ background:#FAF9F6;
 color:#2f2f2f;
 }
 
-.projects-page .navbar{
-position:fixed;
-}
-
-.projects-page .logo,
-.projects-page .brand-name,
-.projects-page .footer-logo{
-transition:.4s;
-}
-
-.projects-page .logo:hover,
-.projects-page .brand-name:hover,
-.projects-page .footer-logo:hover{
-color:#D7B18A;
-}
-
 /* HERO */
 
 .projects-hero{
@@ -491,36 +475,9 @@ line-height:1.7;
 color:#F4E8DD;
 }
 
-/* CTA FINAL */
-
-.projects-page .contact-section{
-margin-top:0;
-}
-
-.projects-page .contact-content{
-padding-top:0;
-}
-
 /* ===== RESPONSIVIDADE TABLET ===== */
 
 @media (max-width:1199px){
-.projects-page .navbar{
-padding:22px 34px;
-grid-template-columns:1fr;
-gap:22px;
-}
-
-.projects-page .brand,
-.projects-page .nav-button{
-justify-self:center;
-}
-
-.projects-page .menu{
-gap:28px;
-justify-content:center;
-flex-wrap:wrap;
-}
-
 .projects-hero{
 padding:210px 44px 70px;
 }
@@ -557,64 +514,11 @@ border-left:0;
 border-top:1px solid rgba(215,177,138,.22);
 }
 
-.projects-page .contact-content{
-grid-template-columns:1fr;
-padding:60px 44px 35px;
-text-align:center;
-}
-
-.projects-page .contact-left{
-position:static;
-justify-content:center;
-}
-
-.projects-page .contact-left img{
-width:240px;
-}
-
-.projects-page .contact-center{
-grid-column:auto;
-margin:auto;
-}
-
-.projects-page .contact-button{
-margin:0 auto;
-}
-
-.projects-page .contact-right{
-justify-content:center;
-flex-wrap:wrap;
-}
-
-.projects-page .footer{
-grid-template-columns:1fr;
-gap:22px;
-text-align:center;
-padding:28px 44px;
-}
-
-.projects-page .footer-brand,
-.projects-page .footer-icons{
-justify-content:center;
-}
 }
 
 /* ===== RESPONSIVIDADE MOBILE ===== */
 
 @media (max-width:767px){
-.projects-page .navbar{
-position:relative;
-padding:20px;
-}
-
-.projects-page .menu{
-gap:16px;
-}
-
-.projects-page .menu li{
-font-size:14px;
-}
-
 .projects-hero{
 min-height:auto;
 padding:70px 24px;
@@ -670,12 +574,4 @@ gap:12px;
 margin:0 auto;
 }
 
-.projects-page .contact-content{
-padding:50px 24px 30px;
-}
-
-.projects-page .contact-card{
-width:100%;
-max-width:250px;
-}
 }

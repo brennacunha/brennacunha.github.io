@@ -7,22 +7,6 @@ background:#FAF9F6;
 color:#2f2f2f;
 }
 
-.experience-page .navbar{
-position:fixed;
-}
-
-.experience-page .logo,
-.experience-page .brand-name,
-.experience-page .footer-logo{
-transition:.4s;
-}
-
-.experience-page .logo:hover,
-.experience-page .brand-name:hover,
-.experience-page .footer-logo:hover{
-color:#D7B18A;
-}
-
 /* HERO */
 
 .experience-hero{
@@ -505,36 +489,9 @@ font-size:13px;
 line-height:1.4;
 }
 
-/* CTA FINAL */
-
-.experience-page .contact-section{
-margin-top:0;
-}
-
-.experience-page .contact-content{
-padding-top:0;
-}
-
 /* ===== RESPONSIVIDADE TABLET ===== */
 
 @media (max-width:1199px){
-.experience-page .navbar{
-padding:22px 34px;
-grid-template-columns:1fr;
-gap:22px;
-}
-
-.experience-page .brand,
-.experience-page .nav-button{
-justify-self:center;
-}
-
-.experience-page .menu{
-gap:28px;
-justify-content:center;
-flex-wrap:wrap;
-}
-
 .experience-hero{
 padding:210px 44px 70px;
 }
@@ -595,64 +552,11 @@ border-left:0;
 border-top:1px solid rgba(215,177,138,.22);
 }
 
-.experience-page .contact-content{
-grid-template-columns:1fr;
-padding:60px 44px 35px;
-text-align:center;
-}
-
-.experience-page .contact-left{
-position:static;
-justify-content:center;
-}
-
-.experience-page .contact-left img{
-width:240px;
-}
-
-.experience-page .contact-center{
-grid-column:auto;
-margin:auto;
-}
-
-.experience-page .contact-button{
-margin:0 auto;
-}
-
-.experience-page .contact-right{
-justify-content:center;
-flex-wrap:wrap;
-}
-
-.experience-page .footer{
-grid-template-columns:1fr;
-gap:22px;
-text-align:center;
-padding:28px 44px;
-}
-
-.experience-page .footer-brand,
-.experience-page .footer-icons{
-justify-content:center;
-}
 }
 
 /* ===== RESPONSIVIDADE MOBILE ===== */
 
 @media (max-width:767px){
-.experience-page .navbar{
-position:relative;
-padding:20px;
-}
-
-.experience-page .menu{
-gap:16px;
-}
-
-.experience-page .menu li{
-font-size:14px;
-}
-
 .experience-hero{
 min-height:auto;
 padding:70px 24px;
@@ -748,12 +652,4 @@ margin:0 auto;
 grid-template-columns:1fr;
 }
 
-.experience-page .contact-content{
-padding:50px 24px 30px;
-}
-
-.experience-page .contact-card{
-width:100%;
-max-width:250px;
-}
 }

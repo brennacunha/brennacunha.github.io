@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
 /* ===== RESPONSIVIDADE DESKTOP ===== */
 
 *{
@@ -176,6 +178,11 @@ transform:translateY(-8px);
 
 box-shadow:0 20px 40px rgba(0,0,0,.18);
 
+}
+
+.live-button.is-temporarily-hidden{
+display:none;
+pointer-events:none;
 }
 
 /* HERO */
@@ -1285,11 +1292,11 @@ display:grid;
 
 grid-template-columns:230px 440px 1fr;
 
-gap:50px;
+gap:32px;
 
 align-items:end;
 
-padding:0 70px 35px;
+padding:0 55px 35px;
 
 }
 
@@ -1421,11 +1428,13 @@ justify-content:flex-start;
 
 .contact-card{
 
-width:200px;
+width:172px;
 
 height:200px;
 
 padding:20px;
+
+box-sizing:border-box;
 
 border-radius:28px;
 
@@ -1525,7 +1534,7 @@ height:50px;
 
 border:1px solid rgba(211,211,211,.7);
 
-border-radius:12x;
+border-radius:20px;
 
 display:flex;
 
@@ -1533,7 +1542,7 @@ justify-content:center;
 
 align-items:center;
 
-font-size:20px;
+font-size:12px;
 
 color:#D3D3D3;
 
@@ -1543,7 +1552,7 @@ color:#D3D3D3;
 
 font-family:'Georgia', serif;
 
-font-size:18px;
+font-size:24px;
 
 margin-bottom:5px;
 

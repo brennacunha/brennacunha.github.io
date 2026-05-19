@@ -1,0 +1,233 @@
+[
+  {
+    "viewport": "desktop",
+    "page": "home",
+    "screenshot": "audit-screenshots\\desktop-home-scrolled.png",
+    "overflow": true,
+    "overflowAmount": 124,
+    "clientWidth": 1366,
+    "scrollWidth": 1490,
+    "offenders": [
+      {
+        "tag": "div",
+        "cls": "contact-right",
+        "text": "FINANÇAS\n\nGestão financeira, indicadores e suporte à tomada ",
+        "right": 1490,
+        "left": 840,
+        "width": 650
+      },
+      {
+        "tag": "div",
+        "cls": "contact-card",
+        "text": "LIDERANÇA\n\nDesenvolvimento de pessoas, organização e resulta",
+        "right": 1490,
+        "left": 1290,
+        "width": 200
+      },
+      {
+        "tag": "p",
+        "cls": "",
+        "text": "Desenvolvimento de pessoas, organização e resultados.",
+        "right": 1469,
+        "left": 1311,
+        "width": 158
+      },
+      {
+        "tag": "h3",
+        "cls": "",
+        "text": "LIDERANÇA",
+        "right": 1442,
+        "left": 1338,
+        "width": 103
+      },
+      {
+        "tag": "i",
+        "cls": "fa-solid fa-people-group",
+        "text": "",
+        "right": 1390,
+        "left": 1390,
+        "width": 0
+      }
+    ],
+    "visibleReveal": 19,
+    "hiddenReveal": 0
+  },
+  {
+    "viewport": "desktop",
+    "page": "experiencia",
+    "screenshot": "audit-screenshots\\desktop-experiencia-scrolled.png",
+    "overflow": true,
+    "overflowAmount": 124,
+    "clientWidth": 1366,
+    "scrollWidth": 1490,
+    "offenders": [
+      {
+        "tag": "div",
+        "cls": "contact-right",
+        "text": "FINANÇAS\n\nGestão financeira, indicadores e suporte à tomada ",
+        "right": 1490,
+        "left": 840,
+        "width": 650
+      },
+      {
+        "tag": "div",
+        "cls": "contact-card",
+        "text": "LIDERANÇA\n\nDesenvolvimento de pessoas, organização e resulta",
+        "right": 1490,
+        "left": 1290,
+        "width": 200
+      },
+      {
+        "tag": "p",
+        "cls": "",
+        "text": "Desenvolvimento de pessoas, organização e resultados.",
+        "right": 1469,
+        "left": 1311,
+        "width": 158
+      },
+      {
+        "tag": "h3",
+        "cls": "",
+        "text": "LIDERANÇA",
+        "right": 1442,
+        "left": 1338,
+        "width": 103
+      },
+      {
+        "tag": "i",
+        "cls": "fa-solid fa-people-group",
+        "text": "",
+        "right": 1390,
+        "left": 1390,
+        "width": 0
+      }
+    ],
+    "visibleReveal": 6,
+    "hiddenReveal": 0
+  },
+  {
+    "viewport": "desktop",
+    "page": "projetos",
+    "screenshot": "audit-screenshots\\desktop-projetos-scrolled.png",
+    "overflow": true,
+    "overflowAmount": 124,
+    "clientWidth": 1366,
+    "scrollWidth": 1490,
+    "offenders": [
+      {
+        "tag": "div",
+        "cls": "contact-right",
+        "text": "FINANÇAS\n\nGestão financeira, indicadores e suporte à tomada ",
+        "right": 1490,
+        "left": 840,
+        "width": 650
+      },
+      {
+        "tag": "div",
+        "cls": "contact-card",
+        "text": "LIDERANÇA\n\nDesenvolvimento de pessoas, organização e resulta",
+        "right": 1490,
+        "left": 1290,
+        "width": 200
+      },
+      {
+        "tag": "p",
+        "cls": "",
+        "text": "Desenvolvimento de pessoas, organização e resultados.",
+        "right": 1469,
+        "left": 1311,
+        "width": 158
+      },
+      {
+        "tag": "h3",
+        "cls": "",
+        "text": "LIDERANÇA",
+        "right": 1442,
+        "left": 1338,
+        "width": 103
+      },
+      {
+        "tag": "i",
+        "cls": "fa-solid fa-people-group",
+        "text": "",
+        "right": 1390,
+        "left": 1390,
+        "width": 0
+      }
+    ],
+    "visibleReveal": 6,
+    "hiddenReveal": 0
+  },
+  {
+    "viewport": "tablet",
+    "page": "home",
+    "screenshot": "audit-screenshots\\tablet-home-scrolled.png",
+    "overflow": false,
+    "overflowAmount": 0,
+    "clientWidth": 820,
+    "scrollWidth": 820,
+    "offenders": [],
+    "visibleReveal": 19,
+    "hiddenReveal": 0
+  },
+  {
+    "viewport": "tablet",
+    "page": "experiencia",
+    "screenshot": "audit-screenshots\\tablet-experiencia-scrolled.png",
+    "overflow": false,
+    "overflowAmount": 0,
+    "clientWidth": 820,
+    "scrollWidth": 820,
+    "offenders": [],
+    "visibleReveal": 6,
+    "hiddenReveal": 0
+  },
+  {
+    "viewport": "tablet",
+    "page": "projetos",
+    "screenshot": "audit-screenshots\\tablet-projetos-scrolled.png",
+    "overflow": false,
+    "overflowAmount": 0,
+    "clientWidth": 820,
+    "scrollWidth": 820,
+    "offenders": [],
+    "visibleReveal": 6,
+    "hiddenReveal": 0
+  },
+  {
+    "viewport": "mobile",
+    "page": "home",
+    "screenshot": "audit-screenshots\\mobile-home-scrolled.png",
+    "overflow": false,
+    "overflowAmount": 0,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "offenders": [],
+    "visibleReveal": 19,
+    "hiddenReveal": 0
+  },
+  {
+    "viewport": "mobile",
+    "page": "experiencia",
+    "screenshot": "audit-screenshots\\mobile-experiencia-scrolled.png",
+    "overflow": false,
+    "overflowAmount": 0,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "offenders": [],
+    "visibleReveal": 6,
+    "hiddenReveal": 0
+  },
+  {
+    "viewport": "mobile",
+    "page": "projetos",
+    "screenshot": "audit-screenshots\\mobile-projetos-scrolled.png",
+    "overflow": false,
+    "overflowAmount": 0,
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "offenders": [],
+    "visibleReveal": 6,
+    "hiddenReveal": 0
+  }
+]
