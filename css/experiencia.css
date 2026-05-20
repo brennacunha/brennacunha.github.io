@@ -13,8 +13,12 @@ color:#2f2f2f;
 min-height:680px;
 padding:135px 70px 70px;
 background:
-radial-gradient(circle at 78% 18%, rgba(215,177,138,.13), transparent 30%),
-linear-gradient(90deg,#001E18 0%,#03261E 50%,#001E18 100%);
+linear-gradient(
+to bottom,
+#001E18 100%,
+#03261E 100%,
+#001E18 100%
+);
 display:flex;
 align-items:center;
 }
@@ -74,13 +78,11 @@ transform:translateX(-6px);
 }
 
 .experience-hero-image{
-min-height:420px;
+min-height:600px;
 border-radius:18px;
 background:
-linear-gradient(90deg, rgba(0,30,24,.5), rgba(0,30,24,.08)),
-url("../assets/images/capa-linkedin.png") center right / cover no-repeat;
-box-shadow:0 30px 80px rgba(0,0,0,.28);
-border:1px solid rgba(215,177,138,.18);
+url("../assets/images/experiencia.png") center right / cover no-repeat;
+
 }
 
 /* TIMELINE VERTICAL */
@@ -300,7 +302,7 @@ padding-left:18px;
 .formation-areas li,
 .formation-category li,
 .formation-extra p{
-font-size:15px;
+font-size:13px;
 line-height:1.65;
 color:#343434;
 }
@@ -479,14 +481,21 @@ color:#D7B18A;
 }
 
 .metric-card strong{
-font-size:18px;
+font-size:clamp(15px, 1.3vw, 18px);
 font-weight:500;
 color:#D7B18A;
+line-height:1.2;
+overflow-wrap:break-word;
+word-break:normal;
+hyphens:manual;
 }
 
 .metric-card span{
-font-size:13px;
+font-size:clamp(12px, 1vw, 13px);
 line-height:1.4;
+overflow-wrap:break-word;
+word-break:normal;
+hyphens:manual;
 }
 
 /* ===== RESPONSIVIDADE TABLET ===== */
@@ -579,32 +588,40 @@ font-size:34px;
 }
 
 .timeline::before{
-left:8px;
+left:24px;
 }
 
 .timeline-item{
-grid-template-columns:22px 1fr;
-gap:16px;
+grid-template-columns:1fr;
+gap:14px;
 margin-bottom:30px;
 }
 
 .timeline-date{
-grid-column:2;
+grid-column:1;
 grid-row:1;
 padding-top:0;
+padding-left:42px;
 }
 
 .timeline-marker{
-grid-column:1;
-grid-row:1 / span 2;
+position:absolute;
+left:16px;
+top:2px;
+grid-column:auto;
+grid-row:auto;
 margin-top:6px;
 width:16px;
 height:16px;
 }
 
 .timeline-card{
-grid-column:2;
+grid-column:1;
 padding:26px 22px;
+width:100%;
+max-width:342px;
+margin-left:auto;
+margin-right:auto;
 }
 
 .timeline-main h3{
@@ -629,6 +646,10 @@ grid-template-columns:1fr;
 
 .formation-category{
 padding:16px;
+width:100%;
+max-width:342px;
+margin-left:auto;
+margin-right:auto;
 }
 
 .highlights-section{
@@ -637,6 +658,10 @@ padding:0 24px 48px;
 
 .highlights-panel{
 padding:26px 22px;
+width:100%;
+max-width:342px;
+margin-left:auto;
+margin-right:auto;
 }
 
 .highlight-intro{
@@ -650,6 +675,36 @@ margin:0 auto;
 
 .highlight-metrics{
 grid-template-columns:1fr;
+}
+
+.timeline-main h3,
+.timeline-main p,
+.timeline-block p,
+.timeline-skills li,
+.formation-areas li,
+.formation-category li,
+.formation-extra p,
+.metric-card strong,
+.metric-card span{
+max-width:100%;
+overflow-wrap:break-word;
+word-break:normal;
+hyphens:manual;
+text-wrap:pretty;
+}
+
+.timeline-main h3{
+font-size:clamp(22px, 7vw, 26px);
+}
+
+.timeline-main p,
+.timeline-block p,
+.timeline-skills li,
+.formation-areas li,
+.formation-category li,
+.formation-extra p{
+font-size:clamp(13px, 3.8vw, 15px);
+line-height:1.65;
 }
 
 }
