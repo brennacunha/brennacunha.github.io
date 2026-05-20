@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+// RESPONSIVIDADE
 const revealItems = document.querySelectorAll(".reveal-item");
 
 if(!("IntersectionObserver" in window)){

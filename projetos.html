@@ -4,9 +4,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Projetos reais aplicados em processos, estratégia, dados e sistemas para gestão financeira.">
 
-<title>Brenna Cunha | Projetos Financeiros</title>
+<link rel="canonical" href="https://brennacunha.github.io/projetos.html">
+<meta property="og:title" content="Projetos Estrat&#233;gicos | Brenna Cunha">
+<meta property="og:description" content="Projetos reais aplicados em processos, estrat&#233;gia, dados e sistemas para gest&#227;o financeira.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://brennacunha.github.io/assets/images/projetos.png">
+<meta property="og:url" content="https://brennacunha.github.io/projetos.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Projetos Estrat&#233;gicos | Brenna Cunha">
+<meta name="twitter:description" content="Projetos reais aplicados em processos, estrat&#233;gia, dados e sistemas para gest&#227;o financeira.">
+<meta name="twitter:image" content="https://brennacunha.github.io/assets/images/projetos.png">
+<title>Projetos Estratégicos | Brenna Cunha</title>
 
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="css/projetos.css">
@@ -14,11 +26,23 @@
 
 <body id="topo" class="projects-page">
 
+<!-- COMPONENTE COMPARTILHADO -->
 <!-- NAVBAR -->
 <nav class="navbar">
 <div class="brand">
-<a href="index.html" class="logo">BC</a>
-<a href="index.html" class="brand-name">BRENNA CUNHA</a>
+
+<div class="logo">
+
+BC
+
+</div>
+
+<div class="brand-name">
+
+BRENNA CUNHA
+
+</div>
+
 </div>
 
 <ul class="menu">
@@ -35,11 +59,11 @@
 <a href="#topo">Projetos</a>
 </li>
 <li>
-<a href="https://www.linkedin.com/in/brennacunha" target="_blank">Contato</a>
+<a href="index.html#contato">Contato</a>
 </li>
 </ul>
 
-<a href="Currículo/Currículo Especialista.pdf" download class="nav-button">
+<a href="assets/documents/curriculo-especialista.pdf" download class="nav-button">
 <i class="fa-solid fa-download"></i>
 Currículo
 </a>
@@ -50,14 +74,15 @@ Currículo
 <section class="projects-hero">
 <div class="projects-hero-content">
 <div class="projects-hero-text">
-<span class="section-mini">PROJETOS EM DESTAQUE</span>
+<span class="section-mini">PROJETOS ESTRATÉGICOS</span>
 
-<h1>SOLUÇÕES QUE GERAM IMPACTO</h1>
+<h1>PROJETOS QUE IMPULSIONARAM RESULTADOS</h1>
 
 <div class="gold-divider"></div>
 
 <p>
-Projetos desenvolvidos com foco em análise, automação, visualização de dados e geração de valor.
+Projetos aplicados em finanças, indicadores, melhoria contínua e estruturação de processos, desenvolvidos 
+ao longo da trajetória profissional.
 </p>
 
 <a href="index.html" class="back-button">
@@ -74,129 +99,111 @@ VOLTAR PARA PÁGINA INICIAL
 <section class="project-gallery" aria-labelledby="projects-title">
 <div class="projects-filter" aria-label="Filtros de projetos">
 <button class="filter-button active" type="button" data-filter="todos">Todos</button>
-<button class="filter-button" type="button" data-filter="financeiro">Financeiro</button>
-<button class="filter-button" type="button" data-filter="power-bi">Power BI</button>
 <button class="filter-button" type="button" data-filter="processos">Processos</button>
-<button class="filter-button" type="button" data-filter="automacao">Automação</button>
+<button class="filter-button" type="button" data-filter="financeiro">Financeiro</button>
+<button class="filter-button" type="button" data-filter="dados">Dados</button>
+<button class="filter-button" type="button" data-filter="sistemas">Sistemas</button>
 </div>
 
 <!-- GRID PRINCIPAL -->
 <div class="project-grid" id="projects-title">
-<article class="portfolio-card reveal-card" data-category="financeiro">
-<div class="project-visual visual-dashboard" role="img" aria-label="Preview de dashboard executivo financeiro">
-<span></span>
-<span></span>
-<span></span>
-<span></span>
+<article class="portfolio-card reveal-card" data-category="processos">
+<div class="project-visual visual-dashboard" role="img" aria-label="Preview da operação de atendimento financeiro">
+<img class="project-visual-image" src="assets/project-images/implantacao-atendimento-zammad/preview.png" alt="Preview da estrutura do atendimento financeiro" loading="lazy">
 </div>
 
 <div class="portfolio-card-content">
-<span>Financeiro</span>
-<h2>Dashboard Executivo Financeiro</h2>
-<p>Visão geral de indicadores financeiros, DRE, fluxo de caixa e análise executiva.</p>
+<span>Processos</span>
+<h2>Implantação do Atendimento Financeiro com Zammad</h2>
+<p>Implantação de chamados, fluxos operacionais, SLA, dashboards e indicadores.</p>
 </div>
 
-<a href="projeto-dashboard.html" class="details-link">
-VER DETALHES
-<i class="fa-solid fa-arrow-right"></i>
-</a>
-</article>
-
-<article class="portfolio-card reveal-card" data-category="power-bi">
-<div class="project-visual visual-profitability" role="img" aria-label="Preview de análise de rentabilidade">
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-</div>
-
-<div class="portfolio-card-content">
-<span>Power BI</span>
-<h2>Análise de Rentabilidade por Produto</h2>
-<p>Dashboard para análise de rentabilidade, margem e mix de produtos.</p>
-</div>
-
-<a href="projeto-rentabilidade.html" class="details-link">
+<a href="implantacao-atendimento-zammad.html" class="details-link">
 VER DETALHES
 <i class="fa-solid fa-arrow-right"></i>
 </a>
 </article>
 
 <article class="portfolio-card reveal-card" data-category="processos">
-<div class="project-visual visual-process" role="img" aria-label="Preview de mapeamento de processos">
-<span></span>
-<span></span>
-<span></span>
-<span></span>
+<div class="project-visual visual-profitability" role="img" aria-label="Preview da comunicação financeira">
+<img class="project-visual-image" src="assets/project-images/humanizacao-comunicacao-financeira/preview.png" alt="Preview da humaniza&#231;&#227;o da comunica&#231;&#227;o financeira" loading="lazy">
 </div>
 
 <div class="portfolio-card-content">
 <span>Processos</span>
-<h2>Mapeamento e Automação de Processos</h2>
-<p>Padronização de processos e melhoria operacional.</p>
+<h2>Humanização da Comunicação Financeira</h2>
+<p>Templates, padrões, orientações e melhorias operacionais para a comunicação financeira.</p>
 </div>
 
-<a href="projeto-processos.html" class="details-link">
+<a href="humanizacao-comunicacao-financeira.html" class="details-link">
 VER DETALHES
 <i class="fa-solid fa-arrow-right"></i>
 </a>
 </article>
 
 <article class="portfolio-card reveal-card" data-category="financeiro">
-<div class="project-visual visual-cashflow" role="img" aria-label="Preview de fluxo de caixa e projeções">
-<span></span>
-<span></span>
-<span></span>
-<span></span>
+<div class="project-visual visual-process" role="img" aria-label="Preview da operação de cobrança e recuperação financeira">
+<img class="project-visual-image" src="assets/project-images/recuperacao-financeira-cobranca/preview.png" alt="Preview da recupera&#231;&#227;o financeira e gest&#227;o da cobran&#231;a" loading="lazy">
 </div>
 
 <div class="portfolio-card-content">
 <span>Financeiro</span>
-<h2>Fluxo de Caixa e Projeções</h2>
-<p>Construção de cenários e projeções financeiras.</p>
+<h2>Recuperação Financeira e Gestão da Cobrança</h2>
+<p>Processo, régua de cobrança, dashboards e indicadores para recuperação financeira.</p>
 </div>
 
-<a href="projeto-fluxo.html" class="details-link">
+<a href="recuperacao-financeira-cobranca.html" class="details-link">
 VER DETALHES
 <i class="fa-solid fa-arrow-right"></i>
 </a>
 </article>
 
-<article class="portfolio-card reveal-card" data-category="power-bi">
-<div class="project-visual visual-kpis" role="img" aria-label="Preview de dashboard de KPIs operacionais">
-<span></span>
-<span></span>
-<span></span>
-<span></span>
+<article class="portfolio-card reveal-card" data-category="financeiro">
+<div class="project-visual visual-cashflow" role="img" aria-label="Preview de performance financeira e gestão por indicadores">
+<img class="project-visual-image" src="assets/project-images/gestao-indicadores-financeiros/preview.png" alt="Preview da gest&#227;o por indicadores financeiros" loading="lazy">
 </div>
 
 <div class="portfolio-card-content">
-<span>Power BI</span>
-<h2>Dashboard de KPIs Operacionais</h2>
-<p>Monitoramento de indicadores operacionais e estratégicos.</p>
+<span>Financeiro</span>
+<h2>Gestão por Indicadores Financeiros</h2>
+<p>Indicadores financeiros, histórico operacional e acompanhamento contínuo da performance.</p>
 </div>
 
-<a href="projeto-kpis.html" class="details-link">
+<a href="gestao-indicadores-financeiros.html" class="details-link">
 VER DETALHES
 <i class="fa-solid fa-arrow-right"></i>
 </a>
 </article>
 
-<article class="portfolio-card reveal-card" data-category="automacao">
-<div class="project-visual visual-reports" role="img" aria-label="Preview de relatórios automáticos com Excel">
-<span></span>
-<span></span>
-<span></span>
-<span></span>
+<article class="portfolio-card reveal-card" data-category="dados">
+<div class="project-visual visual-kpis" role="img" aria-label="Preview de Business Intelligence para gestão financeira">
+<img class="project-visual-image" src="assets/project-images/business-intelligence-financeira/preview.png" alt="Preview do Business Intelligence financeiro" loading="lazy">
 </div>
 
 <div class="portfolio-card-content">
-<span>Automação</span>
-<h2>Relatórios Automáticos com Excel</h2>
-<p>Automação de relatórios e redução de tarefas manuais.</p>
+<span>Dados</span>
+<h2>Business Intelligence para Gestão Financeira</h2>
+<p>Dashboards, integrações e indicadores automatizados para gestão financeira.</p>
 </div>
 
-<a href="projeto-relatorios.html" class="details-link">
+<a href="business-intelligence-financeira.html" class="details-link">
+VER DETALHES
+<i class="fa-solid fa-arrow-right"></i>
+</a>
+</article>
+
+<article class="portfolio-card reveal-card" data-category="sistemas">
+<div class="project-visual visual-reports" role="img" aria-label="Preview de implementação SAP B1 e integração com Tenex">
+<img class="project-visual-image" src="assets/project-images/integracao-sapb1-tenex/preview.png" alt="Preview da integra&#231;&#227;o SAP B1 e Tenex" loading="lazy">
+</div>
+
+<div class="portfolio-card-content">
+<span>Sistemas</span>
+<h2>Integração SAP B1 e Tenex</h2>
+<p>Implementação ERP, integração operacional, testes e homologação financeira.</p>
+</div>
+
+<a href="integracao-sapb1-tenex.html" class="details-link">
 VER DETALHES
 <i class="fa-solid fa-arrow-right"></i>
 </a>
@@ -243,41 +250,42 @@ VER DETALHES
 
 <!-- CTA FINAL -->
 <section id="contato" class="contact-section">
+<!-- BLOCO RESPONSIVO -->
 <div class="contact-content">
 <div class="contact-left">
-<img src="Imagens/foto-recorte.png" alt="Brenna Cunha">
+<img src="assets/images/foto-recorte.png" alt="Brenna Cunha" loading="lazy">
 </div>
 
 <div class="contact-center">
-<span class="section-mini">VAMOS CONVERSAR?</span>
-<h2>Aberta a novas oportunidades</h2>
+<span class="section-mini">LIDERANÇA • ESPECIALISTA • ESTRATÉGIA</span>
+<h2>Aberta a oportunidades</h2>
 <p>
-Atualmente disponível para posições estratégicas em Finanças, FP&amp;A, Controladoria, BI Financeiro e Liderança.
+Experiência em gestão financeira, indicadores estratégicos, melhoria contínua, automação e estruturação de processos, com atuação voltada para eficiência operacional e geração de resultados.
 </p>
 
 <a href="https://www.linkedin.com/in/brennacunha" target="_blank" class="contact-button">
-ENTRE EM CONTATO
+VAMOS CONVERSAR?
 <i class="fa-solid fa-arrow-right"></i>
 </a>
 </div>
 
 <div class="contact-right">
 <div class="contact-card">
-<i class="fa-solid fa-bullseye"></i>
-<h3>FOCO</h3>
-<p>Resultados sustentáveis e geração de valor.</p>
+<i class="fa-solid fa-chart-line"></i>
+<h3>FINANÇAS</h3>
+<p>Gestão financeira, indicadores e suporte à tomada de decisão.</p>
 </div>
 
 <div class="contact-card">
-<i class="fa-solid fa-users"></i>
-<h3>PROPÓSITO</h3>
-<p>Desenvolver pessoas e transformar negócios.</p>
+<i class="fa-solid fa-diagram-project"></i>
+<h3>PROCESSOS</h3>
+<p>Padronização, melhoria contínua e eficiência operacional.</p>
 </div>
 
 <div class="contact-card">
-<i class="fa-regular fa-star"></i>
-<h3>VALOR</h3>
-<p>Ética, excelência e compromisso.</p>
+<i class="fa-solid fa-people-group"></i>
+<h3>LIDERANÇA</h3>
+<p>Desenvolvimento de pessoas, organização e resultados.</p>
 </div>
 </div>
 </div>
@@ -285,11 +293,11 @@ ENTRE EM CONTATO
 <!-- FOOTER -->
 <footer class="footer">
 <div class="footer-brand">
-<a href="index.html" class="footer-logo">BC</a>
+<div class="footer-logo">BC</div>
 
 <div>
 <h3>BRENNA CUNHA</h3>
-<span>LIDERANÇA FINANCEIRA</span>
+<span>GESTÃO • DADOS • PROCESSOS</span>
 </div>
 </div>
 

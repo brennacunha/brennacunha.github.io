@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+// RESPONSIVIDADE
+// CONTROLE MENU
 const filterButtons = document.querySelectorAll(".filter-button");
 const projectCards = document.querySelectorAll(".portfolio-card");
 const revealCards = document.querySelectorAll(".reveal-card");
@@ -24,12 +26,31 @@ filterTimers = [];
 filterButtons.forEach(button => {
 button.addEventListener("click", () => {
 const filter = button.dataset.filter;
+applyProjectFilter(filter, true);
+});
+});
+
+function applyProjectFilter(filter, shouldUpdateUrl = false){
 const visibleCards = [];
 
 clearFilterTimers();
 
 filterButtons.forEach(item => item.classList.remove("active"));
-button.classList.add("active");
+const activeButton = Array.from(filterButtons).find(item => item.dataset.filter === filter) || filterButtons[0];
+activeButton.classList.add("active");
+
+if(shouldUpdateUrl){
+const url = new URL(window.location.href);
+
+if(filter === "todos"){
+url.searchParams.delete("categoria");
+}
+else{
+url.searchParams.set("categoria", filter);
+}
+
+window.history.replaceState({}, "", url);
+}
 
 projectCards.forEach(card => {
 const isMatch = filter === "todos" || card.dataset.category === filter;
@@ -61,8 +82,13 @@ filterTimers.push(staggerTimer);
 }, 210);
 
 filterTimers.push(revealTimer);
-});
-});
+}
+
+const initialFilter = new URLSearchParams(window.location.search).get("categoria");
+
+if(initialFilter && Array.from(filterButtons).some(button => button.dataset.filter === initialFilter)){
+applyProjectFilter(initialFilter);
+}
 
 if(!("IntersectionObserver" in window)){
 revealCards.forEach(card => card.classList.add("is-visible"));

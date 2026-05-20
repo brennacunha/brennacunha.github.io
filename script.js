@@ -1,10 +1,19 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+// RESPONSIVIDADE
+// CONTROLE MENU
+// REVEAL
+// ANIMAÇÕES
+// MICROINTERAÇÕES
+
 const sections = document.querySelectorAll(
 "body[id], section[id]"
 );
 
 const menuItems = document.querySelectorAll(".menu li");
+const revealItems = document.querySelectorAll(
+".hero-text, .hero-image, .about-left, .skill, .experience-header, .exp-item, .exp-highlight, .projects-header, .project-card"
+);
 
 
 // MENU ATIVO
@@ -72,5 +81,36 @@ ticking = true;
 // ESTADO INICIAL
 
 updateMenu();
+
+// REVEAL
+
+revealItems.forEach(item => item.classList.add("home-reveal"));
+
+if(!("IntersectionObserver" in window)){
+
+revealItems.forEach(item => item.classList.add("is-visible"));
+
+return;
+
+}
+
+const revealObserver = new IntersectionObserver(entries => {
+
+entries.forEach(entry => {
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("is-visible");
+revealObserver.unobserve(entry.target);
+
+}
+
+});
+
+}, {
+threshold:0.14
+});
+
+revealItems.forEach(item => revealObserver.observe(item));
 
 });
