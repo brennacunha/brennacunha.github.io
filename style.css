@@ -26,10 +26,11 @@ overflow-x:hidden;
 }
 
 body{
-background:linear-gradient(
+background:
+linear-gradient(
 to bottom,
-#001E18 0%,
-#03261E 50%,
+#001E18 100%,
+#03261E 100%,
 #001E18 100%
 );
 font-family:Arial,sans-serif;
@@ -132,6 +133,16 @@ position:relative;
 
 font-size:18px;
 
+}
+
+.menu a{
+color:#D3D3D3;
+transition:.35s;
+}
+
+.menu a:hover,
+.menu li.active a{
+color:#D7B18A;
 }
 
 .menu li.active::after{
@@ -433,11 +444,15 @@ border:1px solid rgba(200,156,114,.2);
 
 .card h3{
 
-font-size:30px;
+font-size:clamp(22px, 2.1vw, 30px);
 
 color:#C89C72;
 
 margin-bottom:15px;
+line-height:1.18;
+overflow-wrap:break-word;
+word-break:normal;
+hyphens:manual;
 
 }
 
@@ -575,6 +590,14 @@ text-align:center;
 
 transition:.5s;
 
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+height:100%;
+
 }
 
 
@@ -710,6 +733,8 @@ line-height:1.5;
 
 color:#4a4a4a;
 
+margin-bottom:22px;
+
 }
 
 .exp-badge{
@@ -726,7 +751,9 @@ min-height:42px;
 
 padding:0 18px;
 
-margin-top:22px;
+margin-top:auto;
+
+margin-bottom: 80px;
 
 border-radius:10px;
 
@@ -900,23 +927,29 @@ display:block;
 
 font-family:'Cormorant Garamond', serif;
 
-font-size:26px;
+font-size:clamp(22px, 2vw, 26px);
 
 line-height:1.1;
 
 color:#16352E;
 
 margin-bottom:6px;
+overflow-wrap:break-word;
+word-break:normal;
+hyphens:manual;
 
 }
 
 .experience-metric span{
 
-font-size:14px;
+font-size:clamp(12px, 1.1vw, 14px);
 
 line-height:1.55;
 
 color:#3c3c3c;
+overflow-wrap:break-word;
+word-break:normal;
+hyphens:manual;
 
 }
 
@@ -1197,6 +1230,12 @@ border:1px solid rgba(0,0,0,.08);
 
 transition:.5s;
 
+display:flex;
+
+flex-direction:column;
+
+color:inherit;
+
 }
 
 .project-card:hover{
@@ -1220,6 +1259,12 @@ object-fit:cover;
 .project-content{
 
 padding:28px;
+
+display:flex;
+
+flex-direction:column;
+
+flex:1;
 
 }
 
@@ -1257,6 +1302,21 @@ line-height:1.8;
 
 color:#555;
 
+}
+
+.project-cta{
+display:inline-flex;
+align-items:center;
+margin-top:auto;
+padding-top:18px;
+font-size:12px;
+letter-spacing:2px;
+font-weight:800;
+color:#001E18;
+}
+
+.project-card:hover .project-cta{
+color:#C89C72;
 }
 
 /* CONTATO */
@@ -1308,7 +1368,7 @@ padding:0 55px 35px;
 
 position:absolute;
 
-left:25px;
+left:2px;
 
 bottom:116px;
 
@@ -1338,6 +1398,8 @@ object-fit:contain;
 
 .contact-center{
 grid-column: 2;
+
+margin-top: 13px;
 }
 
 .contact-center h2{
@@ -1424,11 +1486,15 @@ gap:25px;
 
 justify-content:flex-start;
 
+min-width:0;
+
 }
 
 .contact-card{
 
 width:172px;
+
+flex:0 1 172px;
 
 height:200px;
 
@@ -1472,17 +1538,22 @@ color:#D7B18A;
 
 margin-bottom:15px;
 
+
 }
 
 .contact-card h3{
 
-font-size:14.5px;
+font-size:clamp(12px, 1.1vw, 14.5px);
 
 letter-spacing:2px;
 
 color:#D7B18A;
 
 margin-bottom:5px;
+line-height:1.25;
+overflow-wrap:break-word;
+word-break:normal;
+hyphens:manual;
 
 }
 
@@ -1665,6 +1736,7 @@ font-size:64px;
 
 .hero-image img{
 width:430px;
+
 }
 
 .about{
@@ -1696,7 +1768,7 @@ display:none;
 }
 
 .exp-item{
-max-width:none;
+max-width:100%;
 }
 
 .exp-highlight{
@@ -1758,6 +1830,31 @@ padding:28px 44px;
 .footer-brand,
 .footer-icons{
 justify-content:center;
+}
+
+}
+
+@media (min-width:1200px) and (max-width:1399px){
+
+.contact-content{
+grid-template-columns:210px minmax(340px,400px) minmax(0,1fr);
+gap:22px;
+padding-left:40px;
+padding-right:40px;
+}
+
+.contact-center p{
+max-width:420px;
+}
+
+.contact-right{
+gap:16px;
+}
+
+.contact-card{
+width:150px;
+flex-basis:150px;
+padding:18px;
 }
 
 }
@@ -1839,6 +1936,7 @@ gap:18px;
 .hero-image img{
 width:100%;
 border-radius:22px;
+
 }
 
 .about,
@@ -1861,6 +1959,54 @@ font-size:17px;
 .experience-line,
 .projects-grid{
 grid-template-columns:1fr;
+justify-items:center;
+}
+
+.skill,
+.exp-item,
+.exp-highlight,
+.experience-metric,
+.project-card,
+.contact-card{
+width:100%;
+max-width:342px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.skill h3,
+.skill p,
+.exp-item h3,
+.exp-item h4,
+.exp-item p,
+.exp-badge,
+.experience-metric strong,
+.experience-metric span,
+.project-content h3,
+.project-content p,
+.project-cta,
+.contact-card h3,
+.contact-card p{
+max-width:100%;
+overflow-wrap:break-word;
+word-break:normal;
+hyphens:manual;
+text-wrap:pretty;
+}
+
+.skill h3,
+.exp-item h3,
+.project-content h3{
+font-size:clamp(18px, 6vw, 26px);
+line-height:1.2;
+}
+
+.skill p,
+.exp-item p,
+.project-content p,
+.contact-card p{
+font-size:clamp(13px, 4vw, 15px);
+line-height:1.65;
 }
 
 .skill::before{
@@ -1897,6 +2043,8 @@ font-size:28px;
 .exp-badge{
 width:100%;
 letter-spacing:1px;
+font-size:clamp(10px, 3.2vw, 12px);
+padding:10px 12px;
 }
 
 .experience-metrics{
